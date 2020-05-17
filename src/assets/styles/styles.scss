@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+$text-font: 'Poppins', sans-serif;
+$header-font: 'Raleway', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #282828;
+  font-size: 1em;
+}
+
+body {
+  box-sizing: inherit;
+  font-family: $text-font;
+}
+
+a {
+  color: #282828;
+  text-decoration: none;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}

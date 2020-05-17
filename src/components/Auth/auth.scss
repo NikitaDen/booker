@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  padding: 1rem;
+  box-shadow: 0 0 5px gray;
+  margin: 0 auto;
+  textarea {
+    resize: none;
+    height: 5rem;
+  }
+
+  &__element {
+    display: inherit;
+    flex-direction: inherit;
+
+    label {
+      padding: .5rem 0;
+    }
+  }
+
+  &__actions {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
